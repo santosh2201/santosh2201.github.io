@@ -1,0 +1,30 @@
+- skill:
+  name: Javascript & jQuery
+  level: 95%
+- skill:
+  name: Python & Django
+  level: 80%
+- skill:
+  name: TypeScript
+  level: 90%
+- skill:
+  name: HTML5 & CSS
+  level: 95%
+- skill:
+  name: React & Redux
+  level: 80%
+- skill:
+  name: Backbone.js
+  level: 95%
+- skill:
+  name: Ruby on Rails
+  level: 85%
+- skill:
+  name: PHP & Symfony Framework
+  level: 90%
+- skill:
+  name: Java
+  level: 95%
+- skill:
+  name: Salesforce Lightning UI & Apex
+  level: 80%

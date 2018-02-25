@@ -1,0 +1,21 @@
+intro: "You can list your side projects or open source libraries in this section. Lorem ipsum dolor
+  sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
+projects:
+  - project:
+    title: Security Reader
+    link: "https://github.com/santosh2201/Security-Reader"
+    tagline: "An android application which scans the barcode present on college ID cards to track student entry/exit timings.
+     This application is being used in our college hostel to prevent food wastage in hostels by giving the hostel management access to analytics dashboard."
+  - project:
+    title: Shelfari
+    link: "https://github.com/santosh2201/shelfari"
+    tagline: "This is a simple Ruby on Rails application which displays books and their status."
+  - project:
+    title: Django React Boilerplate
+    link: "https://github.com/santosh2201/Django-React-Redux-Typescript-Boilerplate"
+    tagline: "This is a React, Redux, Typescript, Django, SASS, Webpack boilerplate."
+  - project:
+    title: Quiz Application
+    link: "https://github.com/santosh2201/quiz-application"
+    tagline: "This is a quiz application based on python. This application requires graphical user interfaces like PyGTK, Tkinter, wxPython, PyQt.
+    This application contains an API which work on python GUI frameworks."

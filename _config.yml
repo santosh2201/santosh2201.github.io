@@ -13,20 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Santosh Reddy Nancharla
+url: 'https://santosh2201.github.io'
+abouturl: '/about' #change it according to your repository name
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Full stack web developer with love for front-end.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: santoshreddy22
+github_username:  santosh2201
+
+
+# tale theme
+theme:      tale
+permalink:  /:year-:month-:day/:title
+paginate:   5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
@@ -41,3 +51,37 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Resume Info
+#Profile information
+name: Santosh Reddy Nancharla
+tagline: Full Stack Developer
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+summary: 'Full-stack developer specializing in front-end development with 3+ years experience.'
+
+#sidebar links
+email: nanchasr@mail.uc.edu
+phone: (847)-436-1356
+website: santosh2201.github.io #do not add http://
+linkedin: santosh2201
+github: santosh2201
+twitter: '@santoshreddy22'
+#Update all the sections by editing the files inside _data folder.
+
+# uncomment the next line, if you want the education section displayed in main instead of the sidebar
+#education_in_main: True
+
+# Tracker
+analytics: UA-32355262-1
+
+# Build settings
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+sass:
+  sass_dir: _sass
+  style: compressed
